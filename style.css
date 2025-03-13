@@ -1,0 +1,37 @@
+.resolucion {
+    width: 99%;
+    text-align: center;
+}
+
+/**Movil**/
+@media (max-width: 767px){
+    .desktop{
+        display: none;
+    }
+    .tablet{
+        display: none;
+    }
+
+}
+
+/**tablet**/
+@media (min-width: 768px) and (max-width: 990px){
+    .desktop{
+        display: none;
+    }
+    .movil{
+        display: none;
+    }
+
+}
+
+/**Escritorio**/
+@media (min-width: 991px){
+    .movil{
+        display: none;
+    }
+    .tablet{
+        display: none;
+    }
+
+}

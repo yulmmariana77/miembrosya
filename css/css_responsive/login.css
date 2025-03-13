@@ -1,0 +1,217 @@
+/* Inicia Estilos de LOGIN */
+.separadorLogin { 
+	color: #A5A5A5;
+	background: #A5A5A5;
+   	width:229px;
+   	position: absolute;
+   	top:134px;
+   	left:10px;
+   	height: 0.5px;
+} 
+
+
+.frase{
+	font-family: Lato-BoldItalic;
+	font-size: 16px;
+	color: #1C479A;
+	font-weight: bold;
+	font-style: italic;
+	top:95px;
+	position: absolute;
+	width: 228px;
+	text-align: center;
+	left:11px;
+}
+
+
+.avatar{
+    top:0;
+    left:0;
+    position: absolute;
+}
+
+
+.login-input-pwd{
+	top:145px;
+    left:10px;
+	color:#636364;
+	width:229px;
+	height:30px;
+	text-indent:5px;
+	font-style:italic;
+	outline:0;
+	background: #FFFFFF;
+	border: 1px solid #D1D1D1;
+	border-radius: 3px;
+	font-family: Lato-Italic;
+	font-size: 13px;
+	color: #A5A5A5;
+	letter-spacing: 0;
+	position:absolute;
+}
+
+.content-login{
+	position:absolute;
+	width:248px;
+	height:auto;
+	z-index:9;
+	right:30px;
+	top:112px;
+	background-color:#FFF;
+	border-radius:3px;
+	overflow:hidden;
+	background-repeat:no-repeat;
+	background-position:0 -35px;
+	padding-top:52px
+}
+
+.content-pass{
+	;
+	width:249px;
+	height:252px;
+	z-index:9;
+	right:30px;
+	top:112px;
+	background: #FFFFFF;
+	border: 1px solid #D1D1D1;
+	border-radius: 3px;
+	background-repeat:no-repeat;
+	background-image:url(../images/estructura/login/headerBienvenido.png);
+	background-position:1px 1px;
+	position:absolute
+}
+
+.content-cerrar{
+	position:absolute;
+	width:249px;
+	height:210px;
+	z-index:9;
+	right:30px;
+	top:112px;
+	background: rgba(20,20,20,0.80);
+	border-radius: 3px;
+	overflow:hidden;
+	background-repeat:no-repeat;
+	background-position:0 -35px;
+	padding-top:52px
+}
+
+.texto-salida{
+font-family: Lato;
+font-size: 16px;
+color: #FFFFFF;
+	width:200px;
+}
+
+
+.sprite-login{background-image:url(../images/estructura/login/sprite_login.png)}
+
+.loginDAD,.loginDAD .set{width:100%;height:auto}
+.loginDAD .set{float:left;text-align:center;padding:9px 0;-ms-box-sizing:border-box;-o-box-sizing:border-box;box-sizing:border-box}
+.loginDAD .set:last-child{float:left;text-align:center;padding:9px 0 1px;-ms-box-sizing:border-box;-o-box-sizing:border-box;box-sizing:border-box}
+.loginDAD .set a.registro{width:246px;height:34px;display:block}
+
+.login-input{
+	color:#636364;
+	width:200px;
+	height:30px;
+	text-indent:5px;
+	font-style:italic;
+	outline:0;
+	background: #FFFFFF;
+	border: 1px solid #D1D1D1;
+	border-radius: 3px;
+	font-family: Lato-Italic;
+	font-size: 13px;
+	color: #A5A5A5;
+	letter-spacing: 0;
+}
+
+.login-pwd{
+	position:absolute;
+	top:150px;
+}
+.boton-amarillo{
+	border:0;
+	height:28px;
+	
+	background:#fd3;
+	background:-webkit-linear-gradient(top,+#ffdd33 0,#ffcf1b 100%);
+	background:-webkit-linear-gradient(top,#fd3 0,#ffcf1b 100%);
+	background:linear-gradient(to bottom,#fd3 0,#ffcf1b 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffdd33', endColorstr='#ffcf1b', GradientType=0);
+	box-shadow:0 0 2px 0 #ffbe12;
+	border-radius:3px;
+	border-bottom:2px solid #ffbe12;
+	
+	/*font-family:Lato;*/
+	font-size: 13px;
+	color: #1C479A;
+	letter-spacing: 0px;
+	text-shadow: 0px 1px 0px #F9AC18;
+	cursor:pointer;
+	
+	outline:0
+}
+.boton-amarillo-pad{
+	padding:0 30px;
+
+}
+.boton-amarillo-pass{
+	position:absolute;
+	top:195px;
+	left:117px;
+	width: 122px;
+	height: 37;
+	
+
+}
+
+.texto-pad{
+	padding-bottom: 20px;
+}
+
+.boton-amarillo-salir{
+	width: 110px;
+}
+
+.boton-azul{
+	border:0;
+	height:28px;
+	width:110px;
+	background: #225AA7;
+	border: 1px solid #D1D1D1;
+	box-shadow: inset 0 -3px 0 0 #164695;
+	border-radius: 2px;
+	background:-webkit-linear-gradient(top,+#225AA7 0,#225AA7 100%);
+	background:-webkit-linear-gradient(top,#225AA7 0,#225AA7 100%);
+	background:linear-gradient(to bottom,#225AA7 0,#225AA7 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffdd33', endColorstr='#ffcf1b', GradientType=0);
+	box-shadow:0 0 2px 0 white;
+	font-family:Lato;
+	font-size:14px;
+	color:white;
+	cursor:pointer;
+	border-radius:3px;
+	border-bottom:2px solid #225aa8;
+	outline:0
+}
+
+.link-olvidaste{
+	font-size:13px;
+	color:#225aa8;
+	text-decoration:underline
+}
+
+.link-nosoyyo{
+	font-family: Lato-Regular;
+	cursor:pointer;
+	font-size:13px;
+	color:#225AA7;
+	position:absolute;
+	top:206px;
+	left:31px;
+}
+/* TERMINA ESTILO LOGIN */
+
+

@@ -1,0 +1,249 @@
+/*******************Estilos Menu********************/
+
+/**************************************************/
+@charset "utf-8";
+/* CSS Document */
+#mnu {
+	width: 100%;
+	/*background: #333;*/
+}
+
+#logo {
+	width: 100%;
+	background: #EEE;
+}
+
+#mnu table {
+	width: 100%;
+}
+
+#mnu td {
+	width: 50%; /*new*/
+}
+
+.blue {
+	background: #225AA7;
+}
+
+.mnuprincipal {
+	text-align: center;
+	border-radius: 3px 3px 0px 0px;
+	background: #FFF;
+	font-family: Lato-Bold;
+	font-size: 16px;
+	padding: 8px;
+	color: #636464;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.link-der {
+	float: right;
+	right: 5px;
+	text-decoration: underline;
+	font-family: Lato-Regular;
+	font-size: 12px;
+	color: #225AA7;
+	padding: 5px;
+}
+
+.icon-menu {
+	float: right;
+	right: 5px;
+}
+
+.rbottom {
+	border-radius: 0px 0px 3px 3px;
+}
+
+.select {
+	background: #225AA7;
+	color: #FFF;
+}
+
+#mnu td:hover {
+	
+}
+
+#logo table {
+	width: 100%;
+}
+
+.logo img {
+	display: inline;
+}
+
+.logo {
+	background: #FFF;
+	box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.24);
+	border-radius: 3px;
+}
+
+.lb {
+	/*border:1px solid #333;*/
+	margin-left: 10px;
+	width: 149px;
+}
+
+/**************************************************************/
+#menu {
+	display: none;
+}
+
+.menu , #ulmenu{
+	list-style: none;
+	background: #225AA7;
+	padding: 5px;
+	color: #FFF;
+	border-top: 1px solid #EEE;
+	cursor: pointer;
+	font-size: 14px;
+	font-family: Lato;
+	margin: 0px;
+	
+}
+
+
+.menu:hover{
+	background: #FDD614 100%;
+	color: #225AA7;
+	text-shadow: 0px 1px 0px #F9AC18;
+	
+
+}
+
+.wsubmenu:hover {
+	color: #FDD614 !important;
+	text-shadow: 0px 1px 0px #225AA7 !important;
+	background: #225AA7 !important;
+}
+
+#smenu {
+	display: none;
+}
+
+#menu table {
+	padding: 0px;
+	width: 100%;
+}
+
+#menu table td {
+	background: #225AA7;
+	padding: 8px;
+	/*border:1px solid #333;*/
+}
+
+#menu table td:hover>.triangle:hover {
+	/*background:#FF0;*/
+	
+}
+
+.triangulo-derecha {
+	width: 0px;
+	height: 0;
+	border-top: 4px solid transparent;
+	border-left: 8px solid #E4C632;
+	border-bottom: 4px solid transparent;
+}
+
+.triangle_hover {
+	border-left: 8px solid #225AA7;
+}
+
+td.smenu {
+	width: 100%;
+	color: #FFF;
+}
+
+#smenu td:hover {
+	cursor: pointer;
+	background: #FDD614;
+	color: #225AA7;
+	text-shadow: 0px 1px 0px #F9AC18;
+}
+
+.ttriangle {
+	background: #FDD614 !important;
+}
+
+.clear{
+	padding:0px;
+	
+}
+
+
+************************************
+
+@font-face{
+	font-family:Lato;
+	src:url(../fonts/Lato-Italic.ttf);
+	font-weight:bold;
+	font-style: italic
+}
+
+@font-face{
+	font-family:Lato;
+	src:url(../fonts/Lato-Bold.ttf);
+	font-weight:bold;
+	font-style: normal
+}
+
+.fecha {	
+    /* position: relative !important; */
+    /* top: 15px; */
+    width: 100%;
+    height: auto;
+    font-family: lato;
+    font-size: 12px;
+    text-align: right !important;
+}
+
+.fecha-text, .hora {
+    height: 15px;
+    color: #636464;
+}
+#validaDatos{
+	text-align: center;
+ 	margin-top: -40px;
+}
+.frase_r{
+	font-family: Lato-Italic;
+	font-size: 16px;
+	color: #1C479A;
+	font-weight: bold;
+	font-style: italic;
+	width: 228px;
+	word-break: break-word;
+}
+.separadorLogin-r{
+	color: #A5A5A5;
+	background: #A5A5A5;
+   	height: 0.5px;
+   	margin: 20px auto 10px;
+   	width: 229px;
+}
+.login-input-pwd-r{
+	width:229px;
+	height:30px;
+	text-indent:5px;
+	font-style:italic;
+	outline:0;
+	background: #FFFFFF;
+	border: 1px solid #D1D1D1;
+	border-radius: 3px;
+	font-family: Lato-Italic;
+	font-size: 13px;
+	color: #A5A5A5;
+	letter-spacing: 0;
+	    display: block;
+}
+.link-nosoyyo-r{    font-family: Lato-Regular;
+    cursor: pointer;
+    font-size: 13px;
+    color: #225AA7;
+    margin:30px 53px 0px 0px; 
+    }
+ .boton-amarillo-pass-r {
+    width: 122px;
+     margin:10px 0px 0px auto; 
+}

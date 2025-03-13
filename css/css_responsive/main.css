@@ -1,0 +1,175 @@
+@charset "utf-8";
+/* CSS Document */
+#main{
+	width:100%;
+	min-height:400px;
+	height:auto;
+	border:1px solid #EEE;
+}
+#loading{
+ width:100%;
+ height:30px;
+ margin:0px;
+ bottom:0px;
+ position:fixed;
+ z-index:1005;
+ overflow:none;
+ color:#0F3;
+ padding:2px;
+ overflow:hidden;
+ display:table;
+ text-align:center;
+ background: #000000;
+ opacity:.8;
+ top: 0px;
+ font-family: Lato;
+ margin-left: -10px;
+}
+
+#closeSessionsh{
+ width:100%;
+ height:30px;
+ margin:0px;
+ bottom:0px;
+ position:fixed;
+ z-index:9;
+ overflow:none;
+ color:#0F3;
+ padding:2px;
+ overflow:hidden;
+ display:table;
+ text-align:center;
+ background: rgba(0,0,0,0.80);
+ top: 0px;
+ font-family: Lato;
+ margin-left: -10px;
+}
+
+#closeSession{
+ width:100%;
+ height:30px;
+ margin:0px;
+ bottom:0px;
+ position:fixed;
+ z-index:9;
+ overflow:none;
+ color:#0F3;
+ padding:2px;
+ overflow:hidden;
+ display:table;
+ text-align:center;
+ top: 0px;
+}
+#wait{
+ vertical-align:middle;
+ margin-top: 80px;
+}
+#textwait{
+ vertical-align:middle;
+ margin:auto;
+ margin-top:156px;
+ color:#FFFFFF;
+ font-weight: bold;
+}
+.txtw2{
+	width: 200px;
+}
+.spriteback{
+	width:100%;
+	background:#008AC8;
+}
+.center{
+	display:table !important;
+	margin:0 auto !important;
+}
+.content-pass{
+	z-index: 0 !important;
+	top:0px !important;
+	position: relative !important;
+	right:0px !important;
+	width: 100% !important;
+	background-image:none; 
+}
+.header-bienvenido{
+	width: 100%;
+	height:40px;
+	background: #008AC8;
+	border-radius: 3px;
+	text-align: right;
+}
+.header-text{
+	font-family: lato;
+	font-weight:bold;
+	font-size: 16px;
+	color: #FFFFFF;
+	padding-top: 10px;
+	padding-right: 10px;
+}
+input#codError, input#error{
+	border:none;
+}
+.content-cerrar{
+	width: 100% !important;
+    right: 0px !important;
+    margin: 0px auto;
+    top:252px !important;
+    position: fixed !important;
+    text-align: center !important;
+}
+.texto-salida{
+    width: 80% !important;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#passincorrect {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	bottom: 0px;
+	background: rgba(0,0,0,0.80);
+	top: 0px;
+	display: table;
+	position: fixed;
+	z-index: 3200;
+	font-family: Lato-Regular;
+	font-size: 17px;
+	color: #FFFFFF;
+	letter-spacing: 0px;
+	text-align: center;
+	margin-left: -10px;
+}
+
+#accept{
+	margin-top: 34px;
+}
+
+#textpass{
+ vertical-align:middle;
+ margin:auto;
+ margin-top: 100px;
+ color:#FFFFFF;
+ font-family: Lato-Regular;
+ font-size: 17px;
+ text-align: center;
+ letter-spacing: 0px;
+ max-width: 220px;
+}
+
+.boton-amarillo-pass-incorrect {
+    position: initial;
+    top: 195px;
+    left: 117px;
+    width: 122px;
+    height: 37;
+}
+
+#textpass2{
+ vertical-align:middle;
+ margin:auto;
+ color:#FFFFFF;
+ font-family: Lato-Regular;
+ font-size: 17px;
+ text-align: center;
+ letter-spacing: 0px;
+}

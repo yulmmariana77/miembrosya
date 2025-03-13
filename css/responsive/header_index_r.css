@@ -1,0 +1,159 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	padding-left:10px;
+	padding-right:10px;
+	margin:0;
+}
+.harp{
+	margin-top:0px;
+}
+#mnu{
+	width:100%;
+	/*background: #333;*/
+}
+#logo{
+	width:100%;
+	background: #EEE;
+}
+#mnu table{
+	width:100%;
+}
+#mnu td{	
+	width:50%;/*new*/
+}
+.blue{
+	background:#225AA7;
+}
+.mnuprincipal{
+	text-align:center;
+	border-radius:3px 3px 0px 0px;
+	background: #FFF;
+	font-family: Lato-Bold;
+	font-size: 16px;
+	padding:8px;
+	color: #636464;
+	text-transform:uppercase;
+	cursor:pointer;
+}
+.link-der{
+	float:right;
+	right:5px;
+	text-decoration:underline;
+	font-family: Lato-Regular;
+	font-size: 12px;
+	color: #225AA7;
+	padding:5px;
+}
+.icon-hamburguer{
+	float:right;
+	right:5px;
+}
+.icon-home{
+	float:left;
+	left:5px;
+}
+.rbottom{
+	/*border-radius:0px 0px 0px 3px;*/
+}
+.ibottom{
+	/*border-radius:0px 0px 3px 0px;*/
+}
+.select{
+	background:#225AA7;
+	color:#FFF;
+}
+#mnu td:hover{	
+}
+#logo table{
+	width:100%;
+}
+.logo img{
+	display:inline;
+}
+.logo{
+	background: #FFF;
+	box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.24);
+	border-radius: 3px;
+}
+.lb{
+	/*border:1px solid #333;*/
+	margin-left:10px;
+	width:149px;
+	padding:5px;
+}
+.av{
+	float:right;
+}
+/**************************************************************/
+#menu{
+	display:none;
+}
+#menu ul li{
+	list-style:none;
+	background:#225AA7;
+	padding:10px;
+	padding-left:8px;
+	color:#FFF;
+	border-top:1px solid #EEE;
+	cursor:pointer;
+	font-size: 14px;
+	font-family: Lato;
+}
+#menu ul li:hover{
+	background:#FDD614 100%;	
+	color: #225AA7;
+	text-shadow: 0px 1px 0px #F9AC18;
+}
+.wsubmenu:hover{
+	color: #FDD614 !important;
+	text-shadow: 0px 1px 0px #225AA7 !important;
+	background:#225AA7 !important;
+}
+#smenu{
+	display:none;
+}
+#menu table{	
+	padding:0px;
+	width:100%;
+}
+#menu table td{
+	background:#225AA7;
+	padding:8px;
+	/*border:1px solid #333;*/
+}
+/*#menu table tr:hover{
+	background:#FF0;
+}*/
+#menu table td:hover >  .triangle:hover{
+	
+	/*background:#FF0;*/
+}
+.triangulo-derecha {
+	width: 0px;
+	height: 0;
+	border-top: 4px solid transparent;
+	border-left: 8px solid #E4C632;
+	border-bottom: 4px solid transparent;
+}
+.triangle_hover{
+	border-left: 8px solid #225AA7;
+}
+td.smenu{
+	width:100%;
+	color:#FFF;
+}
+#smenu td:hover{
+	cursor:pointer;
+	background:#FDD614;
+	color: #225AA7;
+	text-shadow: 0px 1px 0px #F9AC18;
+}
+.ttriangle{
+	background:#FDD614 !important;
+}
+/**************************************************************/
